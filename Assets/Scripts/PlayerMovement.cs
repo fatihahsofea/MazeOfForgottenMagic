@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
-    public float walkSpeed = 2f;
-    public float runSpeed = 5f;
+    public float walkSpeed = 10f;
+    public float runSpeed = 13f;
     public Animator animator;
 
     private Rigidbody rb;
